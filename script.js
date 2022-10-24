@@ -55,13 +55,21 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
   e.preventDefault();
   const title =  document.querySelector('#title').value;
   const author =  document.querySelector('#author').value;
-  //Instaiate book
-  const book = new Book(title, author);
-  // Add Book to UI
-  UI.addBookToList(book)
-  // clear fields
-  UI.clearFields();
+
+  //validte 
+  if (title === '' || author === '') {
+    alert('please fill in all fields');
+  } else {
+      //Instaiate book
+    const book = new Book(title, author);
+    // Add Book to UI
+    UI.addBookToList(book)
+    // clear fields
+    UI.clearFields();
+  }
 });
+
+ 
 // Event: Remove a Book
 document.querySelector('#book-list').addEventListener('click', (e) => {
   UI.deleteBook(e.target)
