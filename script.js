@@ -32,6 +32,11 @@ class UI {
     <td><a href="#">Remove</td>`;
 
     list.appendChild(row);
+
+  }
+  static clearFields() {
+    document.querySelector('#title').value = '';
+    document.querySelector('#author').value = '';
   }
 }
 // Store class: Handel the storage
@@ -49,6 +54,8 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
   const book = new Book(title, author);
   // Add Book to UI
   UI.addBookToList(book)
+  // clear fields
+  UI.clearFields();
 });
 // Event: Remove a Book
 
