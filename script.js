@@ -38,6 +38,18 @@ class UI {
 // Event: Display books
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 // Event: Add a book
+
+document.querySelector('#book-form').addEventListener('submit', (e) => {
+  // Get form values
+  // prevent actual submit
+  e.preventDefault();
+  const title =  document.querySelector('#title').value;
+  const author =  document.querySelector('#author').value;
+  //Instaiate book
+  const book = new Book(title, author);
+  // Add Book to UI
+  UI.addBookToList(book)
+});
 // Event: Remove a Book
 
 
