@@ -39,6 +39,18 @@ class UI {
       el.parentElement.parentElement.remove();
     }
   }
+
+  // static showAlert(message, className) {
+  //   const div = document.createElement('div');
+  //   div.className = `${className}`;
+  //   div.appendChild(document.createTextNode(message));
+  //   const Awesome = document.querySelector('.Awesome_Book');
+  //   const form = document.querySelector('#book-form');
+  //   Awesome.insertBefore(div, form);
+  // }
+
+
+
   static clearFields() {
     document.querySelector('#title').value = '';
     document.querySelector('#author').value = '';
