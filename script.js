@@ -21,10 +21,22 @@ class UI {
 
     ];
     const books = StoredBooks;
+    books.forEach((book) => UI.addBookToList(book));
+  }
+  static addBookToList(book) {
+    const list = document.querySelector('#book-list');
+    const row = document.createElement('tr');
+    row.innerHTML = `
+    <td>${book.title}</td>
+    <td>${book.author}
+    <td><a href="#">Remove</td>`;
+
+    list.appendChild(row);
   }
 }
 // Store class: Handel the storage
 // Event: Display books
+document.addEventListener('DOMContentLoaded', UI.displayBooks);
 // Event: Add a book
 // Event: Remove a Book
 
