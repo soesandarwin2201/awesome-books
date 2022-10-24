@@ -7,27 +7,61 @@
  <title>Awesome books</title>
 </head>
 <body>
- <div class="main-wrapper">
 
-  <main>
-   
-   <section class="books-list">
-    <h1 class="book-list-title">Awesome books</h1>
-    <article id="books-container" class="book-collects">
-    </article>
+    <table>
+        <tbody id="book-list">
 
-    <form action="" class="add-book">
+        </tbody>
+    </table>
 
-     <input type="text" name="book name" placeholder="Title" id="title">
-     <br>
-     <input type="text" name="author name" placeholder="Author" id="author">
-     <button>Add</button>
-    </form>
-   </section>
-  </main>
- </div>
- 
+    <div>
+        <h1>Awesome Book</h1>
+        <form id="book-form">
+            <input type="text" id="title" class="form-control" placeholder="Title"><br>
+            <input type="text" id="author" class="form-control" placeholder="Author"><br>
+            <input type="submit" value="Add"><br>
+        </form>
+    </div>
 
- <script src="./script.js" type="module"></script>
+
+
+
+
+
+    <!-- <main>
+        Header Section 
+        
+         <section id="message-container">
+          
+            </section>
+    <table class="books_table"> 
+    </table>
+  
+    <section id="add_book" >
+        <h2>Add a new book</h2>
+        <div id="add" class="add-new section hidden">
+          
+          <form action="#" method="get" id="book-form">
+            
+            <input
+              type="text"
+              id="title"
+              class="text-inpute"
+              placeholder="Title"
+            />
+            <input
+              type="text"
+              id="author"
+              class="text-inpute"
+              placeholder="Author"
+            />
+            <button type="submit" id="button">Add</button>
+          </form>
+          <span id="error"></span>
+        </div>
+      </section>
+    </main> -->
+
+ <script src="script.js" type="module"></script>
 </body>
 </html>
