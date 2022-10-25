@@ -72,5 +72,21 @@ main {
     align-items: center;
 
 }
+
+table {
+    border: solid 1px #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.line_hd {
+    background-color: rgb(100, 101, 105);
+    color: white;
+  }
+
+  .line_hd:hover {
+    background-color: #04aa6d;
+  }
+  
   
   
