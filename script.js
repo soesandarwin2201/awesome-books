@@ -50,7 +50,7 @@ class Books {
   }
 }
 
-/* flash messages */
+/* flase messages */
 const snakbar = document.getElementById('message-container');
 function snaker(type, mes, time) {
   const para = document.createElement('p');
