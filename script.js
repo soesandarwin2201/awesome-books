@@ -44,6 +44,7 @@ class Books {
     const list = document.querySelector('.books_table');
     const row = document.createElement('tr');
     row.innerHTML = ` <td>${book.Btitle}</td>
+    <p>by</p>
     <td>${book.Bauthor}</td> <td>
     <button type="submit" id="${book.Id}" class="btn">Remove</button></td> `;
     list.appendChild(row);
