@@ -105,7 +105,7 @@ tr:hover {
 
 
   #add_book {
-    display: none;
+    /* display: none; */
     width: 45%;
     margin-top: -100px;
     text-align: center;
@@ -118,5 +118,15 @@ tr:hover {
   #add_book h2 {
     margin-bottom: 50px;
   }
+
+input {
+    width: 80%;
+    margin: 10px auto;
+    height: 36px;
+    border-radius: 6px;
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+}
   
   
