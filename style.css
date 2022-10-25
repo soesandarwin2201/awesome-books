@@ -63,7 +63,7 @@ ul li a {
 main {
     position: absolute;
     top: 60px;
-    background-color: beige;
+    background-color: rgb(121, 117, 117);
     display: flex;
     flex-direction: column;
     width: 100%;
