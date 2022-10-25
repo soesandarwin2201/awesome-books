@@ -119,44 +119,44 @@ btn.forEach((element) => {
 
 // navbar section
 
-const links = document.querySelectorAll('.links');
+const links = document.querySelectorAll(".links");
 
 function showBlock(e) {
-  const sectionList = document.getElementById('list');
-  const sectionAdd = document.getElementById('add_book');
-  const sectionContact = document.getElementById('contact');
+  const sectionList = document.getElementById("list");
+  const sectionAdd = document.getElementById("add_book");
+  const sectionContact = document.getElementById("contact");
   switch (e) {
-    case 'list-link':
-      sectionList.style.display = 'block';
-      sectionAdd.style.display = 'none';
-      sectionContact.style.display = 'none';
+    case "list-link":
+      sectionList.style.display = "block";
+      sectionAdd.style.display = "none";
+      sectionContact.style.display = "none";
       break;
 
-    case 'add-link':
-      sectionAdd.style.display = 'block';
-      sectionList.style.display = 'none';
-      sectionContact.style.display = 'none';
+    case "add-link":
+      sectionAdd.style.display = "block";
+      sectionList.style.display = "none";
+      sectionContact.style.display = "none";
       break;
 
-    case 'contact-link':
-      sectionContact.style.display = 'flex';
-      sectionAdd.style.display = 'none';
-      sectionList.style.display = 'none';
+    case "contact-link":
+      sectionContact.style.display = "flex";
+      sectionAdd.style.display = "none";
+      sectionList.style.display = "none";
       break;
 
     default:
-      sectionAdd.style.display = 'block';
-      sectionList.style.display = 'none';
-      sectionContact.style.display = 'none';
+      sectionAdd.style.display = "block";
+      sectionList.style.display = "none";
+      sectionContact.style.display = "none";
       break;
   }
 }
 
 links.forEach((element) => {
-  element.addEventListener('click', function () {
+  element.addEventListener("click", function () {
     showBlock(element.id);
-    const current = document.getElementsByClassName('active');
-    current[0].className = current[0].className.replace(' active', '');
-    this.className += ' active';
+    const current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
   });
 });
