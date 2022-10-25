@@ -94,5 +94,29 @@ table tr {
     padding: 6px 20px 3px 10px;
     height: 30px;
 }  
+
+tr:hover {
+    background-color: #e0c5c57a;
+  }
+
+  table tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.411);
+  }
+
+
+  #add_book {
+    display: none;
+    width: 45%;
+    margin-top: -100px;
+    text-align: center;
+  }
+
+  .contact-us h2 {
+    padding: 40px 0;
+  }
+  
+  #add_book h2 {
+    margin-bottom: 50px;
+  }
   
   
