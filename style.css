@@ -27,50 +27,21 @@ header {
 
 ul li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 800;
     color: black;
 }
-main {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-#message-container {
-  font-size: large;
-  padding: 1rem;
+.navbar li {
+    width: 100px;
 }
+.active {
+    color: rebeccapurple;
+    transform: scale(1.3);
+    display: block;
+  }
+  .logo {
+    font-size: 20px;
+    font-weight: 800;
+  }
 
-.books_table {
-  width: 300px;
-  padding: 0.5rem;
-}
-
-.books_table td {
-  font-size: large;
-  font-weight: bold;
-}
-
-#add_book {
-  padding: 1rem;
-}
-
-#add_book h2 {
-  padding: 1rem;
-  font-weight: 700;
-}
-
-input {
-  padding: 0.3rem;
-  margin: 10px;
-}
-
-button {
-  padding: 0.5rem;
-  width: 50%;
-  font-weight: 600;
-}
