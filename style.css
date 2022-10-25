@@ -87,6 +87,12 @@ table {
   .line_hd:hover {
     background-color: #04aa6d;
   }
-  
+table tr {
+    display: grid;
+    grid-template-columns: 200px 200px 100px;
+    justify-items: left;
+    padding: 6px 20px 3px 10px;
+    height: 30px;
+}  
   
   
