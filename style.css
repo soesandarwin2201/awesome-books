@@ -1,15 +1,24 @@
-/* only for soving the linters error */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
-body {
-  width: 100vw;
-  font-family: sans-serif;
+/* NavBar section */
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    box-shadow: 0 0 10px #c5c2c2;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+    padding: 0 10%;
 }
-
 main {
   height: 100vh;
   display: flex;
