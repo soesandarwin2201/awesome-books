@@ -105,6 +105,13 @@ tr:hover {
 
 table tr:nth-child(even) {
   background-color: rgba(128, 128, 128, 0.411);
+.books_table {
+  width: 400px;
+  padding: 0.5rem;
+}
+
+.books_table td {
+  font-weight: bold;
 }
 
 #add_book {
@@ -120,6 +127,7 @@ table tr:nth-child(even) {
 
 #add_book h2 {
   margin-bottom: 50px;
+  font-weight: 700;
 }
 
 input {
@@ -228,4 +236,8 @@ footer {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 11px 0 #c5c2c2;
+form button {
+  padding: 0.5rem;
+  width: 50%;
+  font-weight: 600;
 }
