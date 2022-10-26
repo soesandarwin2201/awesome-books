@@ -105,8 +105,8 @@ tr:hover {
 
 table tr:nth-child(even) {
   background-color: rgba(128, 128, 128, 0.411);
-
 }
+
 .books_table {
   width: 400px;
   padding: 0.5rem;
