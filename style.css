@@ -25,12 +25,11 @@ main {
 }
 
 .books_table {
-  width: 300px;
+  width: 400px;
   padding: 0.5rem;
 }
 
 .books_table td {
-  font-size: large;
   font-weight: bold;
 }
 
@@ -39,7 +38,6 @@ main {
 }
 
 #add_book h2 {
-  padding: 1rem;
   font-weight: 700;
 }
 
@@ -48,7 +46,7 @@ input {
   margin: 10px;
 }
 
-button {
+form button {
   padding: 0.5rem;
   width: 50%;
   font-weight: 600;
