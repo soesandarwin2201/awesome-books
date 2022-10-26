@@ -51,7 +51,7 @@ class Books {
   }
 }
 
-/* flash messages */
+/* flase messages */
 const snakbar = document.getElementById('message-container');
 function snaker(type, mes, time) {
   const para = document.createElement('p');
@@ -115,4 +115,48 @@ function removeBk() {
 const btn = document.querySelectorAll('.btn');
 btn.forEach((element) => {
   element.addEventListener('click', removeBk);
+});
+
+// navbar section
+
+const links = document.querySelectorAll('.links');
+
+function showBlock(e) {
+  const sectionList = document.getElementById('list');
+  const sectionAdd = document.getElementById('add_book');
+  const sectionContact = document.getElementById('contact');
+  switch (e) {
+    case 'list-link':
+      sectionList.style.display = 'block';
+      sectionAdd.style.display = 'none';
+      sectionContact.style.display = 'none';
+      break;
+
+    case 'add-link':
+      sectionAdd.style.display = 'block';
+      sectionList.style.display = 'none';
+      sectionContact.style.display = 'none';
+      break;
+
+    case 'contact-link':
+      sectionContact.style.display = 'flex';
+      sectionAdd.style.display = 'none';
+      sectionList.style.display = 'none';
+      break;
+
+    default:
+      sectionAdd.style.display = 'block';
+      sectionList.style.display = 'none';
+      sectionContact.style.display = 'none';
+      break;
+  }
+}
+
+links.forEach((element) => {
+  element.addEventListener('click', function () {
+    showBlock(element.id);
+    const current = document.getElementsByClassName('active');
+    current[0].className = current[0].className.replace(' active', '');
+    this.className += ' active';
+  });
 });
