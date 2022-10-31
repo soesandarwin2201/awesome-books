@@ -29,6 +29,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@ZuhraHashimi4](https://twitter.com/ZuhraHashimi4)
 - LinkedIn: [zuhra-hashimi](https://www.linkedin.com/in/zuhra-hashimi-601966214/)
 
+👤 **Soe Sandar Win**
+
+- GitHub : [@soesandarwin2201] (https://github.com/soesandarwin2201)
+- LinkedIn : [soesandarwin] (https://www.linkedin.com/in/soe-sandar-win-softwareengineer/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
