@@ -1,14 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal Portfolio Page
+# Awesome Books 
 
 > This is the Awesome books: plain JavaScript with objects that shows of my accomplishments as a software developer.
 
 
-
 ## Built With
 
-- HTML, CSS and JavaScript
+- HTML
+- CSS
+- Javascript
+- Webpack
+  
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Click here to see the [Live Demo](https://soesandarwin2201.github.io/awesome-books.github.io/) of the website 
+
+![](./images/awesome-books.png)
 
 ## Getting Started
 
@@ -21,7 +29,15 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 - Download this repository and open index.html file.
 
-## Authors
+ # Author 1
+ 
+👤 **Soe Sandar Win**
+
+- GitHub: [@SoeSandarWin](https://github.com/soesandarwin2201)
+- LinkedIn: [@SoeSandarWin](https://www.linkedin.com/in/soe-sandar-win-softwareengineer/)
+
+
+## Author2
 
 👤 **Zuhra Hashimi**
 
